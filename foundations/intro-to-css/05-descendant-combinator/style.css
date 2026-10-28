@@ -1,1 +1,36 @@
-/* Add CSS Styling */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Option 1: Typ-Selektor + Typ-Selektor */
+/*
+div p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+*/
+
+/* Option 2: Typ-Selektor + Klassen-Selektor */
+/*
+div .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+*/
+
+/* Option 3: Klassen-Selektor + Typ-Selektor */
+/*
+.container p {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+*/
